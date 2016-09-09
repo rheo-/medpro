@@ -11,27 +11,8 @@
         android:layout_marginTop="40dp"
         android:src="@drawable/medpro_logo"
         />
-
     <EditText
-        android:layout_marginTop="100dp"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:id="@+id/EditTextPatientName"
-        android:hint="@string/hint.enterFullName"
-        android:inputType="textPersonName"
-        />
-    <Button
-        android:layout_marginTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:id="@+id/ButtonSearchByName"
-        android:text="@string/label.search"
-        android:background="@color/primary"
-        />
-    <EditText
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="150dp"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/MedproLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/medpro_logo"
+        />
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MedproLogo"
+        android:id="@+id/EditTextEmail"
+        android:hint="@string/hint.enterEmail"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditTextEmail"
+        android:id="@+id/EditTextUsername"
+        android:hint="@string/hint.enterUsername"
+        android:inputType="textPersonName"/>
+    <EditText
+    android:layout_marginTop="10dp"
+    android:layout_width="300dp"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/EditTextUsername"
+    android:id="@+id/EditTextPassword"
+    android:hint="@string/hint.enterPassword"
+    android:inputType="textPassword"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditTextPassword"
+        android:id="@+id/EditTextConfirmPassword"
+        android:hint="@string/hint.enterConfirmPassword"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditTextConfirmPassword"
+        android:id="@+id/ButtonLogin"
+        android:text="@string/label.signup"
+        android:background="@color/primary"
+        />
+
+</RelativeLayout>

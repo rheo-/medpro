@@ -36,22 +36,40 @@
         android:id="@+id/EditTextPassword"
         android:hint="@string/hint.enterPassword"
         android:inputType="number"/>
+    <CheckBox
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditTextPassword"
+        android:layout_alignLeft="@id/EditTextPassword"
+        android:text="Remember me"
+        android:id="@+id/CheckboxRemember"
+        />
     <Button
         android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/EditTextPassword"
+        android:layout_below="@id/CheckboxRemember"
         android:id="@+id/ButtonLogin"
         android:text="@string/label.login"
         android:background="@color/primary"
         />
     <TextView
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/ButtonLogin"
+        android:id="@+id/ForgotPassword"
+        android:text="Forgot password? Click here"
+        />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ForgotPassword"
         android:id="@+id/RegisterPrompt"
         android:text="@string/prompt.register"
         />

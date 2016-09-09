@@ -4,6 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="label.search">Search</string>
+    <string name="label.signup">Sign Up</string>
     <string name="label.showAll">Show All Patients</string>
     <string name="label.registerNew">Register New Patient</string>
     <string name="label.registerNewDoctor">Register</string>
